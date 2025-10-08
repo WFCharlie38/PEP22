@@ -4,7 +4,7 @@ num_intentos = 1
 
 # Leer el intento del usuario como un número entero
 intento_usuario = int(input("Por favor, introduce un número (tienes 4 oportunidades): "))
-
+    
 while intento_usuario != numero_secreto and num_intentos < 5:
     print("Incorrecto.")
     intento_usuario = int(input("Por favor, introduce un número: "))
